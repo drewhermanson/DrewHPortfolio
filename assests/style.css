@@ -1,0 +1,56 @@
+/*Custom CSS Variables for colors */
+:root {
+    --green-smoke: #95aa63;
+    --oxley: #6f9580;
+    --pale-leaf: #bfcab4;
+    --snow-drift: #e4e4dc;
+}
+
+/*Page color and text color */
+::selection {
+    background-color: var(--snow-drift);
+    color: var(--pale-leaf);
+}
+
+/*set font size here*/
+html {
+    font-size: 60%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    color: var(--pale-leaf);
+    background-color: var(--snow-drift);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--green-smoke);
+    color: var(--snow-drift);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    list-style: none;
+}
+
+nav a {
+    color: var(--snow-drift);
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
