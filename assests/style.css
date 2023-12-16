@@ -38,8 +38,13 @@ h1 {
 }
 
 h2 {
-
+    font-size: 3rem;
+    color: var(--oxley);
+    padding: 1%;
+    border-right: 3px solid var(--oxley);
+    max-width: fit-content;
 }
+
 
 nav ul {
     display: flex;
@@ -52,5 +57,50 @@ nav a {
     color: var(--snow-drift);
     font-weight: bold;
     font-size: 2rem;
-    
 }
+
+nav a:hover {
+    color: var(--pale-leaf);
+  }
+
+main {
+  
+}
+
+.bgimage{
+    position: relative;
+    width: auto;
+    background-image: url("../images/temp.jpg");
+    background-repeat: none;
+    background-position:top;
+    background-size:cover;
+    display: flex;
+    min-height: 300px;
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+article{
+    display: flex;
+
+}
+
+article p {
+    display: inline;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--oxley);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 2rem;
+    background-color: var(--green-smoke);
+    color: var(--snow-drift)
+}
+
+@media screen and (max-width: ) {
+   
+  }
