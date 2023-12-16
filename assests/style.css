@@ -38,11 +38,14 @@ h1 {
 }
 
 h2 {
+    margin-right: 30px;
     font-size: 3rem;
+    text-align: right;
     color: var(--oxley);
     padding: 1%;
     border-right: 3px solid var(--oxley);
-    max-width: fit-content;
+    min-width: 175px;
+    max-width: 175px;
 }
 
 
@@ -64,7 +67,7 @@ nav a:hover {
   }
 
 main {
-  
+  margin-left: 50px;
 }
 
 .bgimage{
@@ -80,17 +83,67 @@ main {
     margin-bottom: 20px;
 }
 
-article{
+.row {
     display: flex;
+}
 
+article{
+    
 }
 
 article p {
-    display: inline;
     align-items: center;
+    padding: 1%;
     font-size: 2rem;
     color: var(--oxley);
 }
+
+article ul {
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: var(--oxley);
+}
+
+.workphotos {
+    position: relative;
+    text-align: center;
+    color: var(--snow-drift);
+    margin: 10px;
+}
+
+.workphotos a:hover {
+    color: var(--snow-drift);
+}
+
+.botleft {
+    position: absolute;
+    bottom: 50px;
+    left: 1px;
+    font-size: 3rem;
+    background-color: var(--oxley);
+    border: 10px solid var(--oxley);
+}
+
+article img {
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 250px;
+    max-height: 250px;
+    margin-bottom: 20px;
+    border: 7px solid var(--oxley);
+}
+
+article a:hover {
+    color: var(--green-smoke);
+  }
 
 footer {
     display: flex;
